@@ -1,4 +1,4 @@
-# MISS - temat projektu symulacja stacji kolejowej dowrca głównego w Krakowie
+# MISS - temat projektu symulacja stacji kolejowej dworca głównego w Krakowie
 ## ETAP 1 Dziedzina problemu i analiza problemu
 Problemem, którym będziemy się zajmować jest symulacja ruchu publicznego na stacji kolejowej dworzec główny w Krakowie.
 
@@ -56,3 +56,15 @@ symulacji może okazać sie stowrzenie systemu pociagów przyjeżdżającyh na s
 takich mozliwości postarm sie zrealizowac symulacje za pomocą any logic (nr 2)
 
 ## Określone cele i zakres prac, uruchomione narzędzia
+
+Cele:
+1) Stworzenie topografi przypominającej dworzec główny w Krakowie
+2) Dodanie wszytkich nowych klas osób będących na stacji kolejowej
+3) Stworzenie miejsca docelowego pociąg, które jest otwarte tylko w okreslonym czasie
+4) Przeprowadzenie symulacji dla stworzonej topografi dostosowując odpowiednie klasy do osób na dworcu, i stworzenie statystyk, najwiekszego zatłoczenia miejsca dowrca
+5) Potecjalne modyfikiacje topografi w celu rozrzedzenia ruchu i powtrzymanie sytuacji gdy osoba nie zdąża na pociąg
+
+Po uruchomienu programu vadere możemy stworzyć topografię, gdzie zielone obiekty są obiektami tworzacymi osoby na naszym dworcu a czerwone obiekkty 
+to obiekty przetwarzające nasze jednostki. 
+
+<img src="img/vadere1.png" alt="image" width="500"  height="auto">
