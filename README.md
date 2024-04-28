@@ -68,3 +68,11 @@ Po uruchomienu programu vadere możemy stworzyć topografię, gdzie zielone obie
 to obiekty przetwarzające nasze jednostki. 
 
 <img src="img/vadere1.png" alt="image" width="500"  height="auto">
+
+## Etap 4: prototyp, działające pierwsze elementy
+
+Niestety narzędzie Vadere podczas próby zaimplementowania oczekiwanego załozenia. Narzędzie okazało się zbyt trudne i toporne w obsłudze dodatkowo brak tutoriali
+w internecie spowodował, że zrezygnowałem z używania Vadere. Postanowiłem użyć narzędzie nr 2 AnyLogic.
+Ładując prosty przykład jesteśmy w stanie stworzyć symulację przyjeżdżających odjeżdżających pociągów oraz ludzi przybywających na stację koleji.
+Aby spełnić założenia naszego eksperymentu należy zmienić strukturę stacji aby spełniała wygląd Stacji Głównej w Krakowie. Niestety
+Any Logic nie zapewnia nam modyfikacji psychologi tłumu, zatem projekt będzie opierał się na optymalizacji samej stacji kolejowej.
