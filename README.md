@@ -76,3 +76,5 @@ w internecie spowodował, że zrezygnowałem z używania Vadere. Postanowiłem u
 Ładując prosty przykład jesteśmy w stanie stworzyć symulację przyjeżdżających odjeżdżających pociągów oraz ludzi przybywających na stację koleji.
 Aby spełnić założenia naszego eksperymentu należy zmienić strukturę stacji aby spełniała wygląd Stacji Głównej w Krakowie. Niestety
 Any Logic nie zapewnia nam modyfikacji psychologi tłumu, zatem projekt będzie opierał się na optymalizacji samej stacji kolejowej.
+
+netlogo
