@@ -77,4 +77,15 @@ w internecie spowodował, że zrezygnowałem z używania Vadere. Postanowiłem u
 Aby spełnić założenia naszego eksperymentu należy zmienić strukturę stacji aby spełniała wygląd Stacji Głównej w Krakowie. Niestety
 Any Logic nie zapewnia nam modyfikacji psychologi tłumu, zatem projekt będzie opierał się na optymalizacji samej stacji kolejowej.
 
+Niestety narzędzie anylogic nie okzało się bardziej owocne jeśli chodzi o zaimplementowanie naszego modelu. Dlatego ostatcznie sam model zostanie zaprojektowany w netlogo.
+Za pomocę netlogo udało się odtowrzyć jeden z przykłądów gdzie posiadamy chodzących ludzi do jednego pociagu.
+
 netlogo
+
+## Etap 5: prototyp: działa większość funkcji, pierwsze wyniki
+Uzyskano prototyp. Prototyp posiada 6 peronów, na których pasażerowie mogą wsiadać do pociągów. Zmienne w prototypie obejmują częstotliwość, z jaką są tworzeni ludzie, oraz wielkość i częstotliwość pociągów.
+Dodatkowo, peron, na którym pojawi się pociąg, jest również losowy.
+
+
+## Etap 6: RC: osiągnięte cele, wyniki testów, PR, analiza wyników
+
