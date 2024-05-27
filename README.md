@@ -83,9 +83,30 @@ Za pomocę netlogo udało się odtowrzyć jeden z przykłądów gdzie posiadamy 
 netlogo
 
 ## Etap 5: prototyp: działa większość funkcji, pierwsze wyniki
-Uzyskano prototyp. Prototyp posiada 6 peronów, na których pasażerowie mogą wsiadać do pociągów. Zmienne w prototypie obejmują częstotliwość, z jaką są tworzeni ludzie, oraz wielkość i częstotliwość pociągów.
+Uzyskano prototyp. Prototyp posiada 6 peronów, na których pasażerowie mogą wsiadać do pociągów. 
 Dodatkowo, peron, na którym pojawi się pociąg, jest również losowy.
+Parametry jakie można ustawiać w modelu to częstotliwość tworzenia pasażerów ich prawdopodobieństwo 
+stworzenia częstotliwość tworzenia pociągów oraz ilośc wagonów jakie posiadają.
+Pociągi przyjeżdzające na stację wybierają losowo peron na jaki moga przyjechać, dodatkowo
+kiedy pasażerowie skończą swoją drogę do peronów również wybierają peron gdzie powinny wsiąść
+jeżeli oczywiście nikt tam nie stoi (wtedy agent przechodzi ze stanu walking do stanu waiting).
+<br>
+<img src="img/netlogo.png" alt="image" width="500"  height="auto">
 
 
 ## Etap 6: RC: osiągnięte cele, wyniki testów, PR, analiza wyników
+Niestety nie udało się zrealizowąć wszytkich celów min. typów różnych pasażerów. 
+Jednakże za pomocą netlogo udało się stworzyć model posiadający klika peronów gdzie losowo 
+przyjeżdzają pociągi a osoby losow wybierają pociąg docelowy.
+Przeprowadzając proste testy jesteśmy wstanie stwierdzić jak propocjonalna powinna być
+częśtotliowśc pociągów do częstotliwości pojawiających się pociagów.
+<br>
+<img src="img/netlogoTest1.png" alt="image" width="500"  height="auto">
+Jak widać z powyższego obrazka test nr jeden przpeorwadzona analiza polegała na częstych pociągach o małej ilosći wagonów.
+Jak widać z wykresy human outside ilość ludzi rośnie do pewnego stopnia a następnie utzrymuje się na pewnym poziomie.
 
+<br>
+<img src="img/netlogoTest2.png" alt="image" width="500"  height="auto">
+Jak widać z powyższego obrazka test nr dwa przpeorwadzona analiza polegała na rzadkich pociągach o duzej ilosći wagonów.
+Jak widać z wykresy human outside ilość ludzi rośnie cały czas maleje w przypadku gdy ludzie wsiądą do dużego pociagu.
+Porównując to z testem nr jeden mozemy dojść do wniopsku, że częstsze mniejsz pociągi są bardziej efektywne.
