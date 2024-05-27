@@ -101,6 +101,8 @@ pubkty tworzenia na peronach, dwie klatki, winda, wtedy nadaj się do walidacji 
 
 ## Etap 6: RC: osiągnięte cele, wyniki testów, PR, analiza wyników
 Pomairy realna liczba ludzi wsiadających i wysiadającyh różne obciążenie dowrca i weryfikacja czy działa
+ile czasyu zajmue wyjście ze stacji jak liczba zalęży od tłumum, 
+Zator 
 
 
 Niestety nie udało się zrealizowąć wszytkich celów min. typów różnych pasażerów. 
