@@ -100,6 +100,9 @@ pubkty tworzenia na peronach, dwie klatki, winda, wtedy nadaj się do walidacji 
 
 
 ## Etap 6: RC: osiągnięte cele, wyniki testów, PR, analiza wyników
+Pomairy realna liczba ludzi wsiadających i wysiadającyh różne obciążenie dowrca i weryfikacja czy działa
+
+
 Niestety nie udało się zrealizowąć wszytkich celów min. typów różnych pasażerów. 
 Jednakże za pomocą netlogo udało się stworzyć model posiadający klika peronów gdzie losowo 
 przyjeżdzają pociągi a osoby losow wybierają pociąg docelowy.
